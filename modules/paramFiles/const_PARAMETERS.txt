@@ -1,0 +1,34 @@
+##################
+# energy-cut-off #
+##################
+enegryTolerance 1e-2
+
+#####################
+# embryo-parameters #
+#####################
+epsilon 1000
+vertex_Number 100
+
+###################
+# cell-parameters #
+###################
+betaCell 1000.0
+cellRefArea 1.0
+cellAspectRatio 5.3 # 5.3
+default_alphaA 1.0
+default_alphaB 1.0
+lateralTension 0.375 # 0.375
+cutOffEdgeLength 1e-1
+
+###################
+# yolk-parameters #
+###################
+gamma 0.0
+
+
+
+
+
+
+
+
