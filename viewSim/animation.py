@@ -37,7 +37,7 @@ if os.path.exists(dataPath):
     #           time-series-embryo-shape-information          #
     #*********************************************************#
     for frameNumber,frameName in enumerate(['initialFrame','finalFrame']):
-        fig, (ax,ax_y) = plt.subplots(2,1,figsize = (4, 2))
+        fig, (ax,ax_y) = plt.subplots(2,1,figsize = (2,4))
         fileName = open(dataPath + '/' + frameName, 'r')
         embryoInfo,cellVerticesInfo = fileName.readlines()
         fileName.close()
